@@ -5,7 +5,7 @@ import UIKit
 
 import MWExtensions
 
-var myString:String? = "\t\n"
+var myString:String = "\t\n"
 
 myString.isNilOrEmpty()
 myString.trim()
