@@ -12,6 +12,8 @@
 		E48F61B41D915E74005B9F1C /* MWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E48F61A61D915E74005B9F1C /* MWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E48F61BE1D91647A005B9F1C /* String?+isNilOrEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F61BD1D91647A005B9F1C /* String?+isNilOrEmpty.swift */; };
 		E48F61C21D916F71005B9F1C /* String?+trim.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F61C11D916F71005B9F1C /* String?+trim.swift */; };
+		E4DE83A71D9371E4000FB864 /* Bool+toInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DE83A61D9371E4000FB864 /* Bool+toInt.swift */; };
+		E4DE83A91D937308000FB864 /* Bool+toggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DE83A81D937308000FB864 /* Bool+toggle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 		E48F61BD1D91647A005B9F1C /* String?+isNilOrEmpty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String?+isNilOrEmpty.swift"; sourceTree = "<group>"; };
 		E48F61C01D916493005B9F1C /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Playground.playground; sourceTree = "<group>"; };
 		E48F61C11D916F71005B9F1C /* String?+trim.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String?+trim.swift"; sourceTree = "<group>"; };
+		E4DE83A61D9371E4000FB864 /* Bool+toInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bool+toInt.swift"; sourceTree = "<group>"; };
+		E4DE83A81D937308000FB864 /* Bool+toggle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bool+toggle.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 				E48F61A61D915E74005B9F1C /* MWExtensions.h */,
 				E48F61A71D915E74005B9F1C /* Info.plist */,
 				E48F61BD1D91647A005B9F1C /* String?+isNilOrEmpty.swift */,
+				E4DE83A61D9371E4000FB864 /* Bool+toInt.swift */,
+				E4DE83A81D937308000FB864 /* Bool+toggle.swift */,
 			);
 			path = MWExtensions;
 			sourceTree = "<group>";
@@ -214,6 +220,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E48F61C21D916F71005B9F1C /* String?+trim.swift in Sources */,
+				E4DE83A91D937308000FB864 /* Bool+toggle.swift in Sources */,
+				E4DE83A71D9371E4000FB864 /* Bool+toInt.swift in Sources */,
 				E48F61BE1D91647A005B9F1C /* String?+isNilOrEmpty.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +426,7 @@
 				E48F61B91D915E74005B9F1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E48F61BA1D915E74005B9F1C /* Build configuration list for PBXNativeTarget "MWExtensionsTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +435,7 @@
 				E48F61BC1D915E74005B9F1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
