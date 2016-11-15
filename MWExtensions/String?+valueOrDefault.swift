@@ -1,5 +1,5 @@
 //
-//  String+valueOrDefault.swift
+//  String?+valueOrDefault.swift
 //  MWExtensions
 //
 //  Created by Gene M. Angelo  Jr. on 9/20/16.
