@@ -8,9 +8,9 @@
 import UIKit
 import Foundation
 
-extension UIColor {
+public extension UIColor {
     
-    class func seventyPercentGreyColor() -> UIColor {
+    public class func seventyPercentGreyColor() -> UIColor {
         let seventyPercent:CGFloat = 0.098
         let color = UIColor(red: 0.0, green: 0.0, blue: seventyPercent, alpha: 0.22)
         return color
