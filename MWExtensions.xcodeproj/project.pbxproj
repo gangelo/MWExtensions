@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E41C58F31F79282D00898134 /* Int?+valueOrDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41C58F21F79282D00898134 /* Int?+valueOrDefault.swift */; };
 		E4264D631F734C2E00A3C188 /* String?+valueOrDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4264D5F1F734C2E00A3C188 /* String?+valueOrDefault.swift */; };
 		E4264D641F734C2E00A3C188 /* String+trim.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4264D601F734C2E00A3C188 /* String+trim.swift */; };
 		E4264D651F734C2E00A3C188 /* UIColor+init.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4264D611F734C2E00A3C188 /* UIColor+init.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E41C58F21F79282D00898134 /* Int?+valueOrDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int?+valueOrDefault.swift"; sourceTree = "<group>"; };
 		E4264D5F1F734C2E00A3C188 /* String?+valueOrDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String?+valueOrDefault.swift"; sourceTree = "<group>"; };
 		E4264D601F734C2E00A3C188 /* String+trim.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+trim.swift"; sourceTree = "<group>"; };
 		E4264D611F734C2E00A3C188 /* UIColor+init.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+init.swift"; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				E48F61BD1D91647A005B9F1C /* String?+isNilOrEmpty.swift */,
 				E4DE83A61D9371E4000FB864 /* Bool+toInt.swift */,
 				E4DE83A81D937308000FB864 /* Bool+toggle.swift */,
+				E41C58F21F79282D00898134 /* Int?+valueOrDefault.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 				E4264D661F734C2E00A3C188 /* UIColor+seventyPercentGreyColor.swift in Sources */,
 				E4264D631F734C2E00A3C188 /* String?+valueOrDefault.swift in Sources */,
 				E4264D651F734C2E00A3C188 /* UIColor+init.swift in Sources */,
+				E41C58F31F79282D00898134 /* Int?+valueOrDefault.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
