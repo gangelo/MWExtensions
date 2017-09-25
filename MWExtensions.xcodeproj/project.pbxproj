@@ -11,7 +11,6 @@
 		E4264D641F734C2E00A3C188 /* String+trim.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4264D601F734C2E00A3C188 /* String+trim.swift */; };
 		E4264D651F734C2E00A3C188 /* UIColor+init.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4264D611F734C2E00A3C188 /* UIColor+init.swift */; };
 		E4264D661F734C2E00A3C188 /* UIColor+seventyPercentGreyColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4264D621F734C2E00A3C188 /* UIColor+seventyPercentGreyColor.swift */; };
-		E4264D681F734C5F00A3C188 /* NSObject+className.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4264D671F734C5F00A3C188 /* NSObject+className.swift */; };
 		E48F61AD1D915E74005B9F1C /* MWExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E48F61A31D915E74005B9F1C /* MWExtensions.framework */; };
 		E48F61B21D915E74005B9F1C /* MWExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F61B11D915E74005B9F1C /* MWExtensionsTests.swift */; };
 		E48F61B41D915E74005B9F1C /* MWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E48F61A61D915E74005B9F1C /* MWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -36,7 +35,6 @@
 		E4264D601F734C2E00A3C188 /* String+trim.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+trim.swift"; sourceTree = "<group>"; };
 		E4264D611F734C2E00A3C188 /* UIColor+init.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+init.swift"; sourceTree = "<group>"; };
 		E4264D621F734C2E00A3C188 /* UIColor+seventyPercentGreyColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+seventyPercentGreyColor.swift"; sourceTree = "<group>"; };
-		E4264D671F734C5F00A3C188 /* NSObject+className.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+className.swift"; sourceTree = "<group>"; };
 		E48F61A31D915E74005B9F1C /* MWExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MWExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E48F61A61D915E74005B9F1C /* MWExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWExtensions.h; sourceTree = "<group>"; };
 		E48F61A71D915E74005B9F1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -80,7 +78,6 @@
 				E48F61BD1D91647A005B9F1C /* String?+isNilOrEmpty.swift */,
 				E4DE83A61D9371E4000FB864 /* Bool+toInt.swift */,
 				E4DE83A81D937308000FB864 /* Bool+toggle.swift */,
-				E4264D671F734C5F00A3C188 /* NSObject+className.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -188,7 +185,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Mohojo Werks LLC";
 				TargetAttributes = {
 					E48F61A21D915E74005B9F1C = {
@@ -243,7 +240,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E48F61C21D916F71005B9F1C /* String?+trim.swift in Sources */,
-				E4264D681F734C5F00A3C188 /* NSObject+className.swift in Sources */,
 				E4DE83A91D937308000FB864 /* Bool+toggle.swift in Sources */,
 				E4264D641F734C2E00A3C188 /* String+trim.swift in Sources */,
 				E4DE83A71D9371E4000FB864 /* Bool+toInt.swift in Sources */,
@@ -291,6 +287,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -344,6 +341,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
