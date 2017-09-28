@@ -19,6 +19,7 @@
 		E48F61C21D916F71005B9F1C /* String?+trim.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F61C11D916F71005B9F1C /* String?+trim.swift */; };
 		E4DE83A71D9371E4000FB864 /* Bool+toInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DE83A61D9371E4000FB864 /* Bool+toInt.swift */; };
 		E4DE83A91D937308000FB864 /* Bool+toggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DE83A81D937308000FB864 /* Bool+toggle.swift */; };
+		E4E98C641F7D48EF007B5D42 /* NSAttributedString+replaceHTMLTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E98C631F7D48EF007B5D42 /* NSAttributedString+replaceHTMLTags.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		E48F61C11D916F71005B9F1C /* String?+trim.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String?+trim.swift"; sourceTree = "<group>"; };
 		E4DE83A61D9371E4000FB864 /* Bool+toInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bool+toInt.swift"; sourceTree = "<group>"; };
 		E4DE83A81D937308000FB864 /* Bool+toggle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bool+toggle.swift"; sourceTree = "<group>"; };
+		E4E98C631F7D48EF007B5D42 /* NSAttributedString+replaceHTMLTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+replaceHTMLTags.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				E4DE83A61D9371E4000FB864 /* Bool+toInt.swift */,
 				E4DE83A81D937308000FB864 /* Bool+toggle.swift */,
 				E41C58F21F79282D00898134 /* Int?+valueOrDefault.swift */,
+				E4E98C631F7D48EF007B5D42 /* NSAttributedString+replaceHTMLTags.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 				E48F61BE1D91647A005B9F1C /* String?+isNilOrEmpty.swift in Sources */,
 				E4264D661F734C2E00A3C188 /* UIColor+seventyPercentGreyColor.swift in Sources */,
 				E4264D631F734C2E00A3C188 /* String?+valueOrDefault.swift in Sources */,
+				E4E98C641F7D48EF007B5D42 /* NSAttributedString+replaceHTMLTags.swift in Sources */,
 				E4264D651F734C2E00A3C188 /* UIColor+init.swift in Sources */,
 				E41C58F31F79282D00898134 /* Int?+valueOrDefault.swift in Sources */,
 			);
