@@ -15,7 +15,7 @@
 import Foundation
 
 extension NSAttributedString {
-   func replaceHTMLTags(tag: String, withAttributes attributes: [String: AnyObject]) -> NSAttributedString {
+   public func replaceHTMLTags(tag: String, withAttributes attributes: [String: AnyObject]) -> NSAttributedString {
       let openTag = "<\(tag)>"
       let closeTag = "</\(tag)>"
       let resultingText: NSMutableAttributedString = self.mutableCopy() as! NSMutableAttributedString
