@@ -10,7 +10,7 @@ import Foundation
 
 public extension Bool {
     
-    mutating func toggle() -> Bool {
+    public mutating func toggle() -> Bool {
         self = !self
         return self
     }

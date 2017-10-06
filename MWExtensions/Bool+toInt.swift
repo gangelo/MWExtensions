@@ -10,7 +10,7 @@ import Foundation
 
 public extension Bool {
     
-    func toInt() -> Int {
+    public func toInt() -> Int {
         return self ? 1 : 0
     }
 }

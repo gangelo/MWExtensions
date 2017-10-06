@@ -9,7 +9,7 @@
 import Foundation
 
 public extension Optional where Wrapped: ExpressibleByStringLiteral {
-    func isNilOrEmpty() -> Bool {
+    public func isNilOrEmpty() -> Bool {
         if let string = self as! String? {
             return string.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
         } else {

@@ -11,7 +11,7 @@ import Foundation
 public extension Optional where Wrapped: SignedInteger {
    
    // Returns defaultValue if the int is nil
-   func valueOrDefault(_ defaultValue: Int = 0) -> Int {
+   public func valueOrDefault(_ defaultValue: Int = 0) -> Int {
       return self == nil ? defaultValue : self as! Int
    }
 }

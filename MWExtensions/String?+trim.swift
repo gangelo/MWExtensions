@@ -9,7 +9,7 @@
 import Foundation
 
 public extension Optional where Wrapped: ExpressibleByStringLiteral {
-    func trim() -> String? {
+    public func trim() -> String? {
         if let string = self as! String? {
             return string.trimmingCharacters(in: .whitespacesAndNewlines)
         } else {
