@@ -18,6 +18,7 @@
 		E48F61B41D915E74005B9F1C /* MWExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E48F61A61D915E74005B9F1C /* MWExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E48F61BE1D91647A005B9F1C /* String?+isNilOrEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F61BD1D91647A005B9F1C /* String?+isNilOrEmpty.swift */; };
 		E48F61C21D916F71005B9F1C /* String?+trim.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F61C11D916F71005B9F1C /* String?+trim.swift */; };
+		E494145E1F89BFDD00DCD68E /* String?+toDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E494145D1F89BFDD00DCD68E /* String?+toDate.swift */; };
 		E4C4EB1B1F87157E001EA5C7 /* String+isEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4EB1A1F87157E001EA5C7 /* String+isEmpty.swift */; };
 		E4DE83A71D9371E4000FB864 /* Bool+toInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DE83A61D9371E4000FB864 /* Bool+toInt.swift */; };
 		E4DE83A91D937308000FB864 /* Bool+toggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DE83A81D937308000FB864 /* Bool+toggle.swift */; };
@@ -50,6 +51,7 @@
 		E48F61BD1D91647A005B9F1C /* String?+isNilOrEmpty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String?+isNilOrEmpty.swift"; sourceTree = "<group>"; };
 		E48F61C01D916493005B9F1C /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Playground.playground; sourceTree = "<group>"; };
 		E48F61C11D916F71005B9F1C /* String?+trim.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String?+trim.swift"; sourceTree = "<group>"; };
+		E494145D1F89BFDD00DCD68E /* String?+toDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String?+toDate.swift"; sourceTree = "<group>"; };
 		E4C4EB1A1F87157E001EA5C7 /* String+isEmpty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+isEmpty.swift"; sourceTree = "<group>"; };
 		E4DE83A61D9371E4000FB864 /* Bool+toInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bool+toInt.swift"; sourceTree = "<group>"; };
 		E4DE83A81D937308000FB864 /* Bool+toggle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bool+toggle.swift"; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				E4E98C631F7D48EF007B5D42 /* NSAttributedString+replaceHTMLTags.swift */,
 				E44543111F7D50C300CBFBFC /* UILabel+embedImage.swift */,
 				E4C4EB1A1F87157E001EA5C7 /* String+isEmpty.swift */,
+				E494145D1F89BFDD00DCD68E /* String?+toDate.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 				E48F61C21D916F71005B9F1C /* String?+trim.swift in Sources */,
 				E4DE83A91D937308000FB864 /* Bool+toggle.swift in Sources */,
 				E4264D641F734C2E00A3C188 /* String+trim.swift in Sources */,
+				E494145E1F89BFDD00DCD68E /* String?+toDate.swift in Sources */,
 				E4DE83A71D9371E4000FB864 /* Bool+toInt.swift in Sources */,
 				E4C4EB1B1F87157E001EA5C7 /* String+isEmpty.swift in Sources */,
 				E48F61BE1D91647A005B9F1C /* String?+isNilOrEmpty.swift in Sources */,
