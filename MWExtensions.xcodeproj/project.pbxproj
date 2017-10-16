@@ -19,6 +19,9 @@
 		E48F61BE1D91647A005B9F1C /* String?+isNilOrEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F61BD1D91647A005B9F1C /* String?+isNilOrEmpty.swift */; };
 		E48F61C21D916F71005B9F1C /* String?+trim.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F61C11D916F71005B9F1C /* String?+trim.swift */; };
 		E494145E1F89BFDD00DCD68E /* String?+toDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E494145D1F89BFDD00DCD68E /* String?+toDate.swift */; };
+		E4A629C71F8D666700AA0256 /* String+sentenceCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A629C61F8D666700AA0256 /* String+sentenceCase.swift */; };
+		E4A629C91F8D6A6800AA0256 /* String?+sentenceCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A629C81F8D6A6800AA0256 /* String?+sentenceCase.swift */; };
+		E4B6D8F21F8DA54B009098D9 /* UIImage+Colorize.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B6D8F11F8DA54B009098D9 /* UIImage+Colorize.swift */; };
 		E4C4EB1B1F87157E001EA5C7 /* String+isEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4EB1A1F87157E001EA5C7 /* String+isEmpty.swift */; };
 		E4DE83A71D9371E4000FB864 /* Bool+toInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DE83A61D9371E4000FB864 /* Bool+toInt.swift */; };
 		E4DE83A91D937308000FB864 /* Bool+toggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DE83A81D937308000FB864 /* Bool+toggle.swift */; };
@@ -52,6 +55,9 @@
 		E48F61C01D916493005B9F1C /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Playground.playground; sourceTree = "<group>"; };
 		E48F61C11D916F71005B9F1C /* String?+trim.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String?+trim.swift"; sourceTree = "<group>"; };
 		E494145D1F89BFDD00DCD68E /* String?+toDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String?+toDate.swift"; sourceTree = "<group>"; };
+		E4A629C61F8D666700AA0256 /* String+sentenceCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+sentenceCase.swift"; sourceTree = "<group>"; };
+		E4A629C81F8D6A6800AA0256 /* String?+sentenceCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String?+sentenceCase.swift"; sourceTree = "<group>"; };
+		E4B6D8F11F8DA54B009098D9 /* UIImage+Colorize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Colorize.swift"; sourceTree = "<group>"; };
 		E4C4EB1A1F87157E001EA5C7 /* String+isEmpty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+isEmpty.swift"; sourceTree = "<group>"; };
 		E4DE83A61D9371E4000FB864 /* Bool+toInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bool+toInt.swift"; sourceTree = "<group>"; };
 		E4DE83A81D937308000FB864 /* Bool+toggle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bool+toggle.swift"; sourceTree = "<group>"; };
@@ -93,6 +99,9 @@
 				E44543111F7D50C300CBFBFC /* UILabel+embedImage.swift */,
 				E4C4EB1A1F87157E001EA5C7 /* String+isEmpty.swift */,
 				E494145D1F89BFDD00DCD68E /* String?+toDate.swift */,
+				E4A629C61F8D666700AA0256 /* String+sentenceCase.swift */,
+				E4A629C81F8D6A6800AA0256 /* String?+sentenceCase.swift */,
+				E4B6D8F11F8DA54B009098D9 /* UIImage+Colorize.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -255,7 +264,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E48F61C21D916F71005B9F1C /* String?+trim.swift in Sources */,
+				E4A629C91F8D6A6800AA0256 /* String?+sentenceCase.swift in Sources */,
+				E4A629C71F8D666700AA0256 /* String+sentenceCase.swift in Sources */,
 				E4DE83A91D937308000FB864 /* Bool+toggle.swift in Sources */,
+				E4B6D8F21F8DA54B009098D9 /* UIImage+Colorize.swift in Sources */,
 				E4264D641F734C2E00A3C188 /* String+trim.swift in Sources */,
 				E494145E1F89BFDD00DCD68E /* String?+toDate.swift in Sources */,
 				E4DE83A71D9371E4000FB864 /* Bool+toInt.swift in Sources */,

@@ -11,8 +11,7 @@ import Foundation
 public extension Optional where Wrapped: ExpressibleByStringLiteral {
 
    // Returns defaultValue if the string is nil
-   func valueOrDefault(_ defaultValue: String = "") -> String {
+   public func valueOrDefault(_ defaultValue: String = "") -> String {
       return self == nil ? defaultValue : self as! String
    }
-
 }
