@@ -12,8 +12,8 @@ import Foundation
 public extension Optional where Wrapped: ExpressibleByStringLiteral {
    public func sentenceCase() -> String {
       if let string = self as? String {
-         let first = String(string.characters.prefix(1)).capitalized
-         let other = String(string.characters.dropFirst())
+         let first = String(string.prefix(1)).capitalized
+         let other = String(string.dropFirst())
          return first + other
       } else {
          return ""
